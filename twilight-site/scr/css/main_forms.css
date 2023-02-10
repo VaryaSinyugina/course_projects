@@ -1,0 +1,180 @@
+* {
+    background: #abe194;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+body {
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat, sans-serif;
+}
+
+.header{
+    font-family: Tahoma;
+    margin-top: 0;
+    font-size:30px;
+    color: #fff;
+    height: 70px;
+    width: 100%;
+    background-color: #b18453;
+}
+
+.header h2{
+    font-weight: normal;
+    text-align: center;
+    padding-top: 10px;
+    background-color: #b18453;
+}
+
+.topnav {
+    font-family: Tahoma;
+    background-color: #b18453;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    background-color: #b18453;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav button {
+    float: right;
+    color: #f2f2f2;
+    background-color: #b18453;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav button:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #b18453;
+    color: white;
+}
+
+label {
+    background-color: white;
+}
+
+.formin a {
+    color: #7c9ab7;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: white;
+}
+
+.formreg a {
+    color: #7c9ab7;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: white;
+}
+
+.formprof a {
+    color: #7c9ab7;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: white;
+}
+
+.formin p {
+    margin: 10px 0;
+    background-color: white;
+}
+
+.formreg p {
+    margin: 10px 0;
+    background-color: white;
+}
+
+.formprof p {
+    margin: 10px 0;
+    background-color: white;
+}
+
+.formin {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 250px;
+    background-color: white;
+    border: 2px solid white;
+    border-width: 15px;
+    border-radius: 30px;
+}
+
+.formreg {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: white;
+    border: 2px solid white;
+    border-width: 15px;
+    border-radius: 30px;
+}
+
+.formprof {
+
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: white;
+    border: 2px solid white;
+    border-width: 15px;
+    border-radius: 30px;
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2px solid #e3e3e3;
+    outline: none;
+    background-color: white;
+}
+
+button {
+    padding: 10px;
+    background: #e3e3e3;
+    border: unset;
+    cursor: pointer;
+}
+
+h2 {
+    background-color: white;
+}
+
+.msg {
+    border: 2px solid #ffa908;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.logout {
+    color: #b7625c;
+}
